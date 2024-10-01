@@ -1,0 +1,144 @@
+#+title: Strålingslovene
+#+subtitle: Astronomi C & Fysik B
+#+author: Jacob Debel
+#+date: 
+# Themes: beige|black|blood|league|moon|night|serif|simple|sky|solarized|white
+#+reveal_theme: night
+#+reveal_title_slide: <h2>%t</h2><h3>%s</h3><h4>%a</h4><h4>%d</h4>
+#+reveal_title_slide_background:
+#+reveal_default_slide_background:
+#+reveal_extra_options: slideNumber:"c",progress:true,transition:"slide",navigationMode:"default",history:false,hash:true
+# #+reveal_extra_attr: style="color:red"
+#+options: toc:nil num:nil tags:nil timestamp:nil ^:{}
+
+
+* EM spektrum
+
+
+#+DOWNLOADED: /tmp/screenshot.png @ 2019-09-04 10:07:50
+#+attr_html: :width 80%
+[[file:img/screenshot_2019-09-04_10-07-50.png]]
+
+* EM spektrum
+
+#+DOWNLOADED: /tmp/screenshot.png @ 2019-09-04 10:08:21
+#+attr_html: :width 80% 
+[[file:img/screenshot_2019-09-04_10-08-21.png]]
+
+* Plancks lov
+
+/Sortlegemestråling/.
+
+Et sort legeme (i fysik) er i stand til at:
+
+#+attr_reveal: :frag (appear)
+- absorbere alle bølgelængder og blive tilsvarende opvarmet derved.
+- udsende alle bølgelængder, hvis det bliver opvarmet.
+
+* Plancks lov
+Formlen (Funktion af *to* variable):
+
+$$I(\lambda, T) = \frac{2 \pi h c^2}{\lambda^5 \left( e^{\frac{h c}{\lambda k T}}-1 \right)}$$
+
+#+DOWNLOADED: /tmp/screenshot.png @ 2019-09-04 10:23:53
+#+attr_html: :width 80%
+[[file:img/screenshot_2019-09-04_10-23-53.png]]
+
+#+DOWNLOADED: /tmp/screenshot.png @ 2019-09-04 10:24:04
+#+attr_html: :width 80%
+[[file:img/screenshot_2019-09-04_10-24-04.png]]
+
+* Plancks lov
+
+#+DOWNLOADED: file:///home/jde/NEXTKBH/2017-2018/Astronomi_2017_2018/07_Stjerner/Stjernekompendium/Figurer/Plancks_lov.png @ 2019-09-04 10:38:16
+#+attr_html: :width 40%
+[[file:img/Plancks_lov_2019-09-04_10-38-16.png]]
+
+[[https://phet.colorado.edu/sims/html/blackbody-spectrum/latest/blackbody-spectrum_da.html]]
+
+* Wiens forskydningslov
+
+- Sammenhæng mellem $\lambda_{max}$ og $T$.
+- Altså sammenhængen mellem maksimal intensitet og temperaturen.
+
+$$\boxed{\lambda_{max} = \frac{2.989 \cdot 10^{-3} m \cdot K}{T}}$$
+
+* Wiens forskydningslov
+$$\lambda_{max} = \frac{2.989 \cdot 10^{-3} m \cdot K}{T}$$
+
+#+DOWNLOADED: file:///home/jde/NEXTKBH/2017-2018/Astronomi_2017_2018/07_Stjerner/Stjernekompendium/Figurer/Plancks_lov.png @ 2019-09-04 10:51:41
+#+attr_html: :width 40% 
+[[file:img/Plancks_lov_2019-09-04_10-51-41.png]]
+
+* Stefan-Boltzmanns lov
+
+- Sammenhæng mellem samlet flux og temperatur (for et sort legeme).
+
+$$\phi = \sigma \cdot T^4$$
+
+- $\sigma = 5.67 \cdot 10^{-8} W m^{-2}K^{-4}$ Stefan-Boltzanns konstant.
+
+* Stefan-Boltzmanns lov
+#+reveal_html: <div style="font-size: 60%;">
+- Med /flux/ kan man sammenligne forskellige stjerner
+
+$$\frac{\phi_A}{\phi_B} = \left( \frac{T_A}{T_B} \right)^4$$
+
+#+attr_reveal: :frag (appear)
+$$\frac{\phi_\text{Sirius}}{\phi_\odot} = \left( \frac{10000 K}{5800 K} \right)^4 = 8.84$$
+#+attr_reveal: :frag (appear)
+- 1 $m^2$ af Sirius' overflade udsender 8.84 gange så stor en effekt som 1 $m^2$ på Solen.
+
+* Stefan-Boltzmanns lov
+- Kan også bruges med /luminositet/.
+#+attr_reveal: :frag (appear)
+$$L = A_\text{overflade} \cdot \phi = 4 \pi R^2 \cdot \sigma T^4$$
+
+#+attr_reveal: :frag (appear)
+$$\boxed{\frac{L_A}{L_B} = \left( \frac{R_A}{R_B} \right)^2 \cdot \left( \frac{T_A}{T_B} \right)^4}$$
+
+* Stefan-Boltzmanns lov
+\begin{align*}
+\frac{L_\text{Sirius}}{L_\odot} &= \left( \frac{1.7 \cdot R_{\odot}}{R_\odot} \right)^2 \cdot \left( \frac{T_\text{Sirius}}{T_\odot} \right)^4 \\
+&= 1.7^2\cdot \left( \frac{10000 K}{5800 K} \right)^4 = 25.5
+\end{align*}
+#+attr_reveal: :frag (appear)
+- Sirius' samlede effekt er altså 25.5 gange større end Solens.
+
+* Opgaver
+
+** Opgave 5
+
+#+DOWNLOADED: /tmp/screenshot.png @ 2019-09-04 11:49:56
+#+attr_html: :width 100%
+[[file:img/screenshot_2019-09-04_11-49-56.png]]
+
+Side 38 i stjerner.pdf
+** Opgave 6
+
+#+DOWNLOADED: /tmp/screenshot.png @ 2019-09-04 11:50:19
+#+attr_html: :width 100%
+[[file:img/screenshot_2019-09-04_11-50-19.png]]
+
+Side 38 i stjerner.pdf
+
+** Ekstraopgave 1
+
+#+DOWNLOADED: /tmp/screenshot.png @ 2019-09-04 11:51:44
+#+attr_html: :width 100%
+[[file:img/screenshot_2019-09-04_11-51-44.png]]
+
+** Ekstraopgave 2
+
+#+DOWNLOADED: /tmp/screenshot.png @ 2019-09-04 11:52:39
+#+attr_html: :width 100%
+[[file:img/screenshot_2019-09-04_11-52-39.png]]
+
+** Ekstraopgave 3
+
+#+DOWNLOADED: /tmp/screenshot.png @ 2019-09-04 11:53:14
+#+attr_html: :width 100%
+[[file:img/screenshot_2019-09-04_11-53-14.png]]
+
+
+
