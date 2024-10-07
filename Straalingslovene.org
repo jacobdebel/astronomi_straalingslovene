@@ -61,10 +61,10 @@ $$I(\lambda, T) = \frac{2 \pi h c^2}{\lambda^5 \left( e^{\frac{h c}{\lambda k T}
 - Sammenhæng mellem $\lambda_{max}$ og $T$.
 - Altså sammenhængen mellem maksimal intensitet og temperaturen.
 
-$$\boxed{\lambda_{max} = \frac{2.989 \cdot 10^{-3} m \cdot K}{T}}$$
+$$\boxed{\lambda_{max} = \frac{2.898 \cdot 10^{-3} m \cdot K}{T}}$$
 
 * Wiens forskydningslov
-$$\lambda_{max} = \frac{2.989 \cdot 10^{-3} m \cdot K}{T}$$
+$$\lambda_{max} = \frac{2.898 \cdot 10^{-3} m \cdot K}{T}$$
 
 #+DOWNLOADED: file:///home/jde/NEXTKBH/2017-2018/Astronomi_2017_2018/07_Stjerner/Stjernekompendium/Figurer/Plancks_lov.png @ 2019-09-04 10:51:41
 #+attr_html: :width 40% 
